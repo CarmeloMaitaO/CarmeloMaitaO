@@ -1,4 +1,4 @@
-Hello, I'm Carmelo Maita, a TSU in informatics. I'm open help in any project you have in mind, so ask freely.
+Hello, I'm Carmelo Maita, a TSU in informatics. I'm open to help in any project you have in mind, so ask freely.
 
 ### Languages I use:
 
