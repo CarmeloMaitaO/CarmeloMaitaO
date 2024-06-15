@@ -1,4 +1,14 @@
-- 👋 Hello! I’m Carmelo Maita
-- 👀 I’m interested in Linux, videogames and languages
-- 🌱 I’m currently learning Latex, graphviz and git, aside studying systems engineering
-- 📫 How to reach me: carmeloaugustomaitaorlando@gmail.com
+Hello, I'm Carmelo Maita, a TSU in informatics. I'm open help in any project you have in mind, so ask freely.
+
+### Languages I use:
+
+- Nim
+- C/C++
+- Nix
+- SH (POSIX Shell)
+- HTML/CSS
+- JS
+
+### How to reach me:
+
+- email: trabajo@carmelomaita.xyz
