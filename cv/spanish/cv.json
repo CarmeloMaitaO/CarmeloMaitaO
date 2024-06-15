@@ -1,0 +1,417 @@
+{
+  "basics": {
+    "name": "Carmelo Augusto Maita Orlando",
+    "label": "TSU en Inform\u00e1tica",
+    "image": "",
+    "email": "work@carmelomaita.xyz",
+    "phone": "+584244579309",
+    "url": "carmelomaita.xyz",
+    "summary": "Profesional de inform\u00e1tica con un enfoque vers\u00e1til, que abarca desde la administraci\u00f3n de sistemas Linux (NixOS, Archlinux, Nanos) y la reparaci\u00f3n de hardware, hasta el desarrollo de software (Nim, JS, C++) y la instalaci\u00f3n de redes LAN.\n\nCon experiencia en la optimizaci\u00f3n de sistemas y flujos de trabajo, busca la eficiencia mediante la mejora continua de algoritmos y procesos.  H\u00e1bil en la resoluci\u00f3n de problemas y la colaboraci\u00f3n, prefiere entornos de trabajo independientes o en equipos peque\u00f1os.\n\nApto para cubrir un amplio espectro de funciones en TI, desde soporte y documentaci\u00f3n hasta administraci\u00f3n de servidores y desarrollo full-stack.  C\u00f3modo en entornos de terminal, valora el software de c\u00f3digo abierto, el cumplimiento de est\u00e1ndares y el desarrollo de soluciones internas.",
+    "location": {
+      "address": "Calle 137b, Urbanizaci\u00f3n San Jos\u00e9 de Tarbes",
+      "postalCode": "2001",
+      "city": "Valencia",
+      "countryCode": "VE",
+      "region": "Carabobo"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carmelo-maita",
+        "url": "https://www.linkedin.com/in/carmelo-maita/"
+      },
+      {
+        "network": "Github",
+        "username": "CarmeloMaitaO",
+        "url": "https://github.com/CarmeloMaitaO"
+      },
+      {
+        "network": "Codewars",
+        "username": "Carmelo Maita",
+        "url": "https://www.codewars.com/users/Carmelo%20Maita"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Instituto Universitario de Tecnolog\u00eda Antonio Jos\u00e9 de Sucre",
+      "location": "Valencia, Carabobo, Venezuela",
+      "description": "",
+      "position": "Jurado de Trabajo Especial de Grado",
+      "url": "",
+      "startDate": "2025-01-14",
+      "endDate": "Actualidad"
+    },
+    {
+      "name": "Aut\u00f3nomo",
+      "location": "Valencia, Carabobo, Venezuela",
+      "description": "Durante esta etapa me he dedicado a cambiar el conjunto de herramientas tecnol\u00f3gicas que utilizo para trabajar y estudiar conceptos de ciencias computacionales con el objetivo de crear una metodolog\u00eda m\u00e1s eficiente con respecto a la programaci\u00f3n \"full-stack\" y los desaf\u00edos de ciberseguridad a los que esta se enfrenta. Mis hallazgos me llevaron a usar el lenguaje de programaci\u00f3n Nim como soluci\u00f3n para front-end y back-end, debido a su capacidad de transpilar al lenguaje C como a Javascript; Reemplac\u00e9 Linux con el microkernel Nanos para eliminar la mayor\u00eda de la superficie de ataque que poseen sistemas con capacidades para ejecutar m\u00faltiples procesos y shells; por \u00faltimo, he decidido concentrarme en especializarme en SQLite como base de datos, dado que su rendimiento es mayor al de SGDBs como PostgreSQL o MySQL, y puede soportar concurrencia de operaciones como estos sistemas a trav\u00e9s del modo WAL o crear una cola de operaciones en el back-end, sin poseer un proceso servidor que ampl\u00ede la superficie de ataque. Por \u00faltimo, he elegido QML/QTquick como framework para hacer interfaces gr\u00e1ficas verdaderamente nativas y Karax para realizar p\u00e1ginas web, ambas tecnolog\u00edas multiplataforma de alto rendimiento, disponibles en Nim",
+      "position": "Desarrollo profesional",
+      "url": "",
+      "startDate": "2024-03-01",
+      "endDate": "Actualidad"
+    },
+    {
+      "name": "Instituto Universitario de Tecnolog\u00eda Antonio Jos\u00e9 de Sucre",
+      "location": "Valencia, Carabobo, Venezuela",
+      "description": "Profesor de los cursos de Programaci\u00f3n I (C++), Introducci\u00f3n a la inform\u00e1tica. Tutor de pasant\u00edas profesionales y Trabajo Especial de Grado",
+      "position": "Profesor",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "2024-02-01"
+    },
+    {
+      "name": "Aut\u00f3nomo",
+      "location": "Valencia, Carabobo, Venezuela",
+      "description": "",
+      "position": "Servicio t\u00e9cnico",
+      "url": "",
+      "startDate": "2014-07-01",
+      "endDate": "2020-10-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Intituto Universitario Antonio Jos\u00e9 de Sucre",
+      "url": "",
+      "area": "Inform\u00e1tica",
+      "studyType": "T\u00e9cnico Superior Universitario",
+      "startDate": "2019-09-01",
+      "endDate": "2022-08-01",
+      "score": "85.80%",
+      "courses": [],
+      "description": "Los estudios estuvieron orientados a obtener las habilidades pr\u00e1cticas para\nprogramar y administrar sistemas computarizados, en estos se cursaron materias\nde programaci\u00f3n en diversos lenguajes (HTML, CSS, Javascript, Python, Java,\nVB6), matem\u00e1ticas orientadas a la optimizaci\u00f3n de sistemas, fundamentos de\nelectr\u00f3nica digital, y la teor\u00eda de sistemas necesaria para dise\u00f1ar dichos\nsistemas.\n\nLa tesis realizada en estos estudios fue la reingenier\u00eda de varios sistemas para\nreparar discos duros, aunando sus funciones y permitiendo la especificaci\u00f3n de\nlas \u00f3rdenes a trav\u00e9s de un analizador sint\u00e1ctico-sem\u00e1ntico (parser)."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Reconocimiento",
+      "date": "2024-05-10",
+      "issuer": "Instituto Universitario de Tecnolog\u00eda Antonio Jos\u00e9 de Sucre",
+      "description": "Este certificado se otorga en reconocimiento a su dedicaci\u00f3n, pasi\u00f3n y compromiso en la ense\u00f1anza y formaci\u00f3n de los estudiantes"
+    },
+    {
+      "title": "Reconocimiento por Ponencia en I Jornada de Saberes",
+      "date": "2023-12-12",
+      "issuer": "Instituto Universitario de Tecnolog\u00eda Antonio Jos\u00e9 de Sucre",
+      "description": "Por haber participado como ponente en la I Jornada de Saberes, Desarrollando el Conocimiento: Arte, Administraci\u00f3n y Tecnolog\u00eda. Ra\u00fal Quero Silva"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Retos de la Seguridad Inform\u00e1tica en Venezuela",
+      "date": "2024-10-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Foro dedicado a la discusi\u00f3n de las amenazas y vectores de ataques cibern\u00e9ticos presentes en Venezuela.",
+      "id": "CIIL2019-F024"
+    },
+    {
+      "name": "Curso de Integraci\u00f3n de Lenguaje y Cultura General Italiana: nivel A1",
+      "date": "2024-02-29",
+      "issuer": "Centro Culturale Scalabrini",
+      "url": "",
+      "description": "Curso sobre la gram\u00e1tica italiana. Nivel A1.",
+      "id": ""
+    },
+    {
+      "name": "Curso de Integraci\u00f3n de Lenguaje y Cultura General Italiana: nivel A2",
+      "date": "2024-07-26",
+      "issuer": "Centro Culturale Scalabrini",
+      "url": "",
+      "description": "Curso sobre la gram\u00e1tica italiana. Nivel A2.",
+      "id": ""
+    },
+    {
+      "name": "Introducci\u00f3n a CSS",
+      "date": "2024-10-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-S3WCUFN6",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nCSS.",
+      "id": "CC-S3WCUFN6"
+    },
+    {
+      "name": "Introducci\u00f3n a SQL",
+      "date": "2024-10-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-JJIUW2CT",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nSQL.",
+      "id": "CC-JJIUW2CT"
+    },
+    {
+      "name": "SQL Intermedio",
+      "date": "2024-10-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-M0CG0TIE",
+      "description": "Curso sobre aspectos t\u00e9cnicos y espec\u00edficos de SQL.",
+      "id": "CC-M0CG0TIE"
+    },
+    {
+      "name": "Introducci\u00f3n a HTML",
+      "date": "2024-09-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-XIZOIIJI",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nHTML.",
+      "id": "CC-XIZOIIJI"
+    },
+    {
+      "name": "Introducci\u00f3n a Javascript",
+      "date": "2024-07-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-0VID3T1O",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nJavascript.",
+      "id": "CC-0VID3T1O"
+    },
+    {
+      "name": "Javascript Intermedio",
+      "date": "2024-07-01",
+      "issuer": "Sololearn",
+      "url": "https://api2.sololearn.com/v2/certificates/CC-MSUN6NWC/image/jpg",
+      "description": "Curso sobre aspectos t\u00e9cnicos y espec\u00edficos de Javascript.",
+      "id": "CC-MSUN6NWC"
+    },
+    {
+      "name": "Introducci\u00f3n a C++",
+      "date": "2023-04-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CC-4RZDHQZP",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nC++.",
+      "id": "CC-4RZDHQZP"
+    },
+    {
+      "name": "Java",
+      "date": "2222-09-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CT-NFOMK5VL",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de programaci\u00f3n\nJava.",
+      "id": "CT-NFOMK5VL"
+    },
+    {
+      "name": "SQL",
+      "date": "2022-09-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CT-QGJWYBIJ",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de dominio\nespec\u00edfico SQL\n",
+      "id": "CT-QGJWYBIJ"
+    },
+    {
+      "name": "Estrategias Pedag\u00f3gicas Dirigidas a Profesionales Universitarios que Laboran a Nivel Superior (2021)",
+      "date": "2021-01-01",
+      "issuer": "Fundaci\u00f3n Universidad de Carabobo (FUNDAUC)",
+      "url": "",
+      "description": "Diplomado que certifica que se poseen los conocimientos necesarios para ejercer\ncomo docente en \u00e1reas relacionadas a las carreras cursadas\n",
+      "id": ""
+    },
+    {
+      "name": "HTML",
+      "date": "2020-08-01",
+      "issuer": "Sololearn",
+      "url": "https://www.sololearn.com/certificates/CT-06VEXAG5",
+      "description": "Curso sobre conocimientos pr\u00e1cticos y te\u00f3ricos del lenguaje de marcado HTML\n",
+      "id": "CT-06VEXAG5"
+    },
+    {
+      "name": "Ataque en Sigilo",
+      "date": "2020-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Taller orientado a la difusi\u00f3n de nuevas t\u00e9cnicas de ofuscaci\u00f3n de direcciones\nIP y su posible aplicaci\u00f3n en vectores de ataques cibern\u00e9ticos\n",
+      "id": ""
+    },
+    {
+      "name": "Servicio T\u00e9cnico de Celulares (2019)",
+      "date": "2019-01-01",
+      "issuer": "Todotienda",
+      "url": "",
+      "description": "Diplomado sobre fundamentos electr\u00f3nicos y digitales para la reparaci\u00f3n de\ndispositivos m\u00f3viles\n",
+      "id": ""
+    },
+    {
+      "name": "Open Source Intelligence (OSINT)",
+      "date": "2018-12-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Curso sobre procedimientos b\u00e1sicos de inteligencia a trav\u00e9s de fuentes p\u00fablicas utilizando herramientas computarizadas\n",
+      "id": ""
+    },
+    {
+      "name": "B\u00e1sico de Wordpress (2018)",
+      "date": "2018-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Taller dirigido a conocer c\u00f3mo administrar una p\u00e1gina web usando Wordpress\n",
+      "id": ""
+    },
+    {
+      "name": "B\u00e1sico de Redes",
+      "date": "2018-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Taller dedicado a ense\u00f1ar sobre los conocimientos b\u00e1sicos de las redes de\nordenadores, orientado al protocolo TCP/IP\n",
+      "id": ""
+    },
+    {
+      "name": "Introducci\u00f3n al Linux Kali (Debian)",
+      "date": "2018-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Taller dedicado al aprendizaje de la operaci\u00f3n b\u00e1sica del sistema operativo de\nauditor\u00edas inform\u00e1ticas Kali Linux\n",
+      "id": ""
+    },
+    {
+      "name": "Funci\u00f3n Hash Dentro del Proceso Penal Contra un Delito Inform\u00e1tico (2018)",
+      "date": "2018-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Taller orientado al aprendizaje del uso de diferentes funciones Hash dentro de\nprocesos de cadena de custodia de pruebas inform\u00e1ticas\n",
+      "id": ""
+    },
+    {
+      "name": "Pentester",
+      "date": "2017-09-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Curso dedicado al aprendizaje de procesos, t\u00e9cnicas y herramientas de ataque\ncibern\u00e9tico, para auditor\u00edas de seguridad en sistemas computarizados\n",
+      "id": "CPCIIL2017-111"
+    },
+    {
+      "name": "Inform\u00e1tica Forense",
+      "date": "2017-08-01",
+      "issuer": "Centro de Investigaci\u00f3n Inform\u00e1tica Lazarus, C.A. - Facultad de Ciencias Econ\u00f3micas y Sociales de la Universidad de Carabobo (FACES UC) - Centro de Entrenamiento y Asistencia T\u00e9cnica a las Empresas de la Universidad de Carabobo (CEATE UC)",
+      "url": "",
+      "description": "Curso dedicado al aprendizaje de los procesos, t\u00e9cnicas y herramientas\nutilizadas para realizar auditor\u00edas forenses inform\u00e1ticas\n",
+      "id": "CIFCIIL2017-163"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Administraci\u00f3n de sistemas Linux",
+      "level": "Experto",
+      "keywords": [
+        "Nixos",
+        "Archlinux",
+        "Nanos"
+      ]
+    },
+    {
+      "name": "Programaci\u00f3n",
+      "level": "Semi Senior",
+      "keywords": [
+        "Nim",
+        "Nix",
+        "SH (POSIX Shell)",
+        "HTML/CSS",
+        "C++",
+        "JS"
+      ]
+    },
+    {
+      "name": "Reparaci\u00f3n de sistemas computacionales",
+      "level": "Experto",
+      "keywords": [
+        "PCs",
+        "Tel\u00e9fonos"
+      ]
+    },
+    {
+      "name": "Instalaci\u00f3n de LANs",
+      "level": "Experto",
+      "keywords": [
+        "Mesh",
+        "OpenWRT"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Ingl\u00e9s",
+      "fluency": "Intermedio"
+    },
+    {
+      "language": "Italiano",
+      "fluency": "Intermedio"
+    },
+    {
+      "language": "Espa\u00f1ol",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Linux Ricing",
+      "description": "Personalizaci\u00f3n est\u00e9tica y funcional de sistemas Linux, especialmente en mi repositorio dotfiles con NixOS.",
+      "keywords": [
+        "Linux",
+        "NixOS",
+        "Dotfiles",
+        "Personalizaci\u00f3n"
+      ]
+    },
+    {
+      "name": "Videojuegos",
+      "description": "Inter\u00e9s en videojuegos sandbox con elementos de programaci\u00f3n, rompecabezas y acci\u00f3n.",
+      "keywords": [
+        "Sandbox",
+        "Programaci\u00f3n",
+        "Rompecabezas",
+        "Acci\u00f3n"
+      ]
+    },
+    {
+      "name": "Lenguajes de Dominio Espec\u00edfico (DSL)",
+      "description": "Exploraci\u00f3n de DSL para tareas de maquetaci\u00f3n y diagramaci\u00f3n, como Typst y D2.",
+      "keywords": [
+        "DSL",
+        "Typst",
+        "D2",
+        "Maquetaci\u00f3n",
+        "Diagramaci\u00f3n"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Portafolio de Dise\u00f1o de Pierina Maita",
+      "url": "https://pierina-maita.wixsite.com/inicio",
+      "description": "P\u00e1gina web que muestra el portafolio de Pierina Maita como dise\u00f1adora.",
+      "keywords": [
+        "Dise\u00f1o Web",
+        "Wix"
+      ]
+    },
+    {
+      "name": "Mumu Aventura",
+      "url": "https://mumuaventura.neocities.org/",
+      "description": "Peque\u00f1o Webcomic creado junto a Pierina Maita.",
+      "keywords": [
+        "Webcomic",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Dotfiles y Scripts",
+      "url": "https://github.com/CarmeloMaitaO/dotfiles",
+      "description": "Repositorio con mis dotfiles, scripts, devshells, programas de uso personal y startpage. Base de mi trabajo como t\u00e9cnico y sysadmin.",
+      "keywords": [
+        "Dotfiles",
+        "Scripts",
+        "Sysadmin",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Programas y P\u00e1ginas Web",
+      "url": "https://github.com/CarmeloMaitaO/portfolio",
+      "description": "Repositorio con programas y p\u00e1ginas web desarrolladas para terceros, incluyendo el webcomic Mumu Aventura y un gestor de lapsos judiciales (TS3).",
+      "keywords": [
+        "Desarrollo Web",
+        "Programaci\u00f3n",
+        "Nim",
+        "SQLite",
+        "TS3"
+      ]
+    }
+  ]
+}

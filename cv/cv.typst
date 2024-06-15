@@ -1,0 +1,229 @@
+/*
+#set page(
+  paper: "us-letter",
+  margin: (
+    x: 1cm,
+    y: 1cm
+  )
+)
+#set text(
+  size: 12pt,
+  hyphenate: false,
+  lang: "es"
+)
+#set par(
+  first-line-indent: (
+    amount: 2.5em,
+    all: true
+  ),
+  spacing: 1em,
+  justify: true
+)
+
+#let writeFirstPage(cv) = {
+  #grid(
+    columns: (1fr, 2fr),
+    rows: (100%),
+     
+  )
+}
+*/
+// // // // // //
+
+#set page(
+  paper: "us-letter",
+  margin: (left: 2cm, right: 2cm, top: 1cm, bottom: 1cm)
+)
+
+#let section-title(title) = {
+  text(1.2em, strong(title))
+  line(length: 100%)
+  v(0.5em)
+}
+
+#let person-info() = {
+  section-title("Información Personal")
+  grid(
+    columns: (1fr, 2fr),
+    column-gutter: 1em,
+    row-gutter: 0.5em,
+    [*Nombre:*], cv.basics.name,
+    [*Título:*], cv.basics.label,
+    [*Correo:*], link("mailto:" + cv.basics.email, cv.basics.email),
+    [*Teléfono:*], cv.basics.phone,
+    [*Sitio web:*], link(cv.basics.url, cv.basics.url),
+    [*Ubicación:*], cv.basics.location.city + ", " + cv.basics.location.region + ", " + cv.basics.location.countryCode,
+    [*LinkedIn:*], link(cv.basics.profiles.at(0).url, cv.basics.profiles.at(0).username),
+    [*Github:*], link(cv.basics.profiles.at(1).url, cv.basics.profiles.at(1).username),
+    [*Codewars:*], link(cv.basics.profiles.at(2).url, cv.basics.profiles.at(2).username)
+  )
+  v(0.5em)
+  text(cv.basics.summary)
+  v(1em)
+}
+
+#let work-experience() = {
+  section-title("Experiencia Laboral")
+  for job in cv.work {
+    if job.name != "" {
+      strong(job.name)
+      if job.position != "" {
+        h(1em)
+        emph(job.position)
+      }
+      if job.startDate != "" or job.endDate != "" {
+        h(1em)
+        emph(job.startDate + " - " + job.endDate)
+      }
+      v(0.3em)
+    }
+    if job.location != "" {
+      text(10pt, job.location)
+      v(0.3em)
+    }
+    if job.description != "" {
+      text(job.description)
+      v(0.5em)
+    }
+  }
+  v(1em)
+}
+
+#let education-section() = {
+  section-title("Educación")
+  for edu in cv.education {
+    strong(edu.institution)
+    if edu.studyType != "" {
+      h(1em)
+      emph(edu.studyType)
+    }
+    if edu.startDate != "" or edu.endDate != "" {
+      h(1em)
+      emph(edu.startDate + " - " + edu.endDate)
+    }
+    v(0.3em)
+    if edu.area != "" {
+      text(10pt, edu.area)
+      v(0.3em)
+    }
+    if edu.description != "" {
+      text(edu.description)
+      v(0.5em)
+    }
+  }
+  v(1em)
+}
+
+#let awards-section() = {
+  section-title("Reconocimientos")
+  for award in cv.awards {
+    strong(award.title)
+    if award.date != "" {
+      h(1em)
+      emph(award.date)
+    }
+    if award.issuer != "" {
+      h(1em)
+      emph(award.issuer)
+    }
+    v(0.3em)
+    if award.description != "" {
+      text(award.description)
+      v(0.5em)
+    }
+  }
+  v(1em)
+}
+
+#let certificates-section() = {
+  section-title("Certificados")
+  for cert in cv.certificates {
+    strong(cert.name)
+    if cert.date != "" {
+      h(1em)
+      emph(cert.date)
+    }
+    if cert.issuer != "" {
+      h(1em)
+      emph(cert.issuer)
+    }
+    v(0.3em)
+    if cert.description != "" {
+      text(cert.description)
+      v(0.5em)
+    }
+    if cert.id != "" {
+      text(10pt, "ID: " + cert.id)
+      v(0.3em)
+    }
+  }
+  v(1em)
+}
+
+#let skills-section() = {
+  section-title("Habilidades")
+  for skill in cv.skills {
+    strong(skill.name + ":")
+    h(0.5em)
+    text(skill.level)
+    if skill.keywords != [] {
+      h(0.5em)
+      text("(" + skill.keywords.join(", ") + ")")
+    }
+    v(0.3em)
+  }
+  v(1em)
+}
+
+#let languages-section() = {
+  section-title("Idiomas")
+  for lang in cv.languages {
+    strong(lang.language + ":")
+    h(0.5em)
+    text(lang.fluency)
+    v(0.3em)
+  }
+  v(1em)
+}
+
+#let interests-section() = {
+  section-title("Intereses")
+  for interest in cv.interests {
+    strong(interest.name + ":")
+    h(0.5em)
+    text(interest.description)
+    if interest.keywords != [] {
+      h(0.5em)
+      text("(" + interest.keywords.join(", ") + ")")
+    }
+    v(0.3em)
+  }
+  v(1em)
+}
+
+#let projects-section() = {
+  section-title("Proyectos")
+  for project in cv.projects {
+    strong(project.name + ":")
+    h(0.5em)
+    link(project.url, project.url)
+    v(0.3em)
+    text(project.description)
+    if project.keywords != [] {
+      h(0.5em)
+      text("(" + project.keywords.join(", ") + ")")
+    }
+    v(0.5em)
+  }
+  v(1em)
+}
+
+#person-info()
+#work-experience()
+#education-section()
+#awards-section()
+#certificates-section()
+#skills-section()
+#languages-section()
+#interests-section()
+#projects-section()
