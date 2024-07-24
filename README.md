@@ -11,4 +11,4 @@ Hello, I'm Carmelo Maita, a TSU in informatics. I'm open to help in any project 
 
 ### How to reach me:
 
-- email: trabajo@carmelomaita.xyz
+- email: laboro@carmelomaita.xyz
