@@ -1,5 +1,3 @@
-Hello, I'm Carmelo Maita, a TSU in informatics.
-
 ### Languages I use:
 
 - Nim
