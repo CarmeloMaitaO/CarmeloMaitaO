@@ -9,4 +9,4 @@
 
 ### How to reach me:
 
-- email: work@carmelomaita.xyz
+- email: github@carmelomaita.xyz
